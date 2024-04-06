@@ -1,0 +1,316 @@
+
+.overall1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    margin: 5px;
+}
+
+.MEN{
+    color: royalblue;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+button{
+    padding: 10px;
+    padding-top: 12px;
+    border: none;
+    color: white;
+    background-color: royalblue;
+    border-radius: 5px;
+}
+
+.adidas{
+    height: 70px;
+    width: 100px;
+}
+
+.card{
+    height: 370px;
+    width: 270px;
+    border: 2px solid transparent;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 75%;
+}
+
+.card1{
+    width: 270px;
+    height: 260px;
+    position: relative;
+}
+
+.img1{
+    position: absolute;
+    top: 0;
+}
+
+.img2{
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+h4{
+    position: absolute;
+    padding: 5px;
+    background-color: white;
+    bottom: 0;
+    left: 10px;
+    margin: 0;
+}
+
+
+.card img{
+    width: 270px;
+    height: 260px;
+}
+
+.fa-heart{
+
+    color: black;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 8px 7px 6px 7px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.card{
+    position: relative;
+    width: 270px;
+}
+
+.plus{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    border: 2px solid;
+    padding: 8px 8px 8px 8px;
+    background-color: white;
+    opacity: 0;
+}
+
+.card2 .fa-plus{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    border: 2px solid;
+    padding: 8px 8px 8px 8px;
+    background-color: white;
+    opacity: 0;
+}
+
+span{
+    padding-left: 5px;
+    opacity: 0.5;
+}
+
+p{
+    margin: 0px 5px ;
+    margin-top: 5px;
+}
+
+.card:hover .img2{
+    display: block;
+}
+
+.card:hover .card1 h4{
+    bottom: 5px;
+}
+
+.card:hover{
+    border: 2px solid grey;
+}
+
+.card:hover .fa-plus{
+    opacity: 1;
+}
+
+
+footer{
+    padding: 20px;
+    background-color: #0d0d34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer1{
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.footer1 img{
+    height: 60px;
+    width: 60px;
+}
+
+.footer1 i{
+    padding: 10px 0px 0px 10px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer h3{
+    color:white;
+    margin-top: 5px;
+    font-size: 23px;
+}
+
+.footer p{
+    color: oldlace;
+    opacity: 0.7;
+    font-size: large;
+    margin: 5px;
+}
+
+.footer1 img {
+    height: 60px;
+    width: 61px;
+    padding-top: 6px;
+}
+
+.fa-facebook, .fa-instagram, .fa-x-twitter{
+    color: white;
+    color: white;
+    font-size: 25px;
+    /* padding-right: 2px; */
+
+}
+
+@media only screen and (min-width:300px) and (max-width: 500px){
+
+    .overall {
+        width: 304%;
+    }
+
+    .overall1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+        /* margin-left: 67px; */
+        justify-items: center;
+    }
+
+    .card {
+        position: relative;
+        width: 99%;
+        height: 640px;
+    }
+
+    .card1 {
+        width: 100%;
+        height: 451px;
+        position: relative;
+    }
+
+    .card img {
+        width: 100%;
+        height: 445px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 445px;
+    }
+
+    .MEN {
+        color: royalblue;
+        font-size: 50px;
+        padding-right: 20px;
+    }
+
+    p {
+        margin: 0px 5px;
+        margin-top: 5px;
+        font-size: xx-large;
+    }
+
+    span {
+        padding-left: 5px;
+        opacity: 0.5;
+        font-size: xx-large;
+    }
+
+    .adidas {
+        height: 132px;
+        width: 166px;
+    }
+
+    button {
+        padding: 30px;
+        /* padding-top: 40px; */
+        border: none;
+        color: white;
+        font-size: xx-large;
+        background-color: royalblue;
+        border-radius: 34px;
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .footer p{
+        font-size: 40px;
+    }
+
+    .footer h3 {
+        color: white;
+        margin-top: 33px;
+        margin-bottom: 5px;
+        font-size: 47px;
+    }
+
+    .footer1 img {
+        height: 100px;
+        width: 100px;
+        padding-top: 28px;
+    }
+
+
+    .fa-facebook, .fa-instagram, .fa-x-twitter{
+        color: white;
+        color: white;
+        font-size: 41px;
+        /* padding-right: 2px; */
+    
+    }
+}
+

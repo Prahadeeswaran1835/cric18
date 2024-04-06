@@ -1,0 +1,28 @@
+.a{
+  height: 400px;
+  width: 400px;
+  position: relative;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 2s; */
+  
+}
+
+button{
+  padding: 20px;
+  color: tomato;
+}
+
+.a:hover button{
+
+}
+
+@keyframes example {
+  
+
+}
+  

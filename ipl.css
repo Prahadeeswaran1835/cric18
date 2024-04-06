@@ -1,0 +1,894 @@
+.nimg1{
+    height: 58px;
+    width: 86px;
+}
+
+.h1{
+    height: 40px;
+    width: 50px;
+}
+
+.nav a{
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.sponser h3{
+    color: aqua;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+i{
+    font-size: 20px;
+    color: white;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    background-color: royalblue;
+    display: flex;
+    z-index: 5;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rollipl{
+    text-align: center;
+    overflow-y: hidden;
+
+}
+
+
+/* .rollipl .h1{
+    animation: ipl 5s linear 1s infinite alternate;
+}
+
+@keyframes ipl{
+    0%{
+        transform: translatey(0%);
+    }
+
+    50%, 100%{
+        transform: translatey(-108%);
+    }
+} */
+
+.subnav h1{
+    margin: 0;
+}
+
+.subnav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a:hover{
+    background-color: blueviolet;
+    border-bottom: 2px solid darkorange;
+}
+
+.rollipl a:hover{
+    height: 35px;
+    text-decoration: none;
+    background-color: royalblue;
+}
+
+
+
+/* ==================================================================================nav bar end======================================== */
+
+.allcard{
+    background-color: #070f26;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.allcards{
+    width: 100%;
+    margin-top: 50px;
+    /* padding: 20px; */
+    background-image: url(./teamsbg.jpg);
+    background-repeat:no-repeat ;
+    /* background-color: #070f26; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: larger;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.simg{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+}
+
+.card h1{
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    padding: 13px 6px 6px 27px;
+    margin: 0;
+
+    
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 10px;
+    padding: 20px;
+}
+
+
+.ipllogo{
+    text-align: center;
+    width: 100%;
+}
+
+.ipllogo img{
+    padding: 30px;
+    height: 250px;
+    width: 350px;
+}
+
+
+.card{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border: 2px solid darkblue;
+    border-radius: 20px;
+}
+
+
+.cardlsg{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    grid-row-start: 3;
+    grid-column-start: 3;
+    border-radius: 20px;
+}
+
+.csk1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.csk11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+    border-radius: 20px;
+}
+
+.csk2{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.csk2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: yellow;
+}
+
+
+.csk11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+/* ------------------------------------------------min mi ----------------------------------------------- */
+
+.mi1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.mi11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+}
+
+.mi2{
+    height: 300px;
+    width: 300px;
+    background-color: #133166;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.mi2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: #2d6ab1;
+}
+
+.mi11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+.mi2 img{
+    height: 100px;
+    width: 100px;
+}
+
+/* -----------------------------------------------------------rcb---------------------------------------- */
+
+
+.rcb1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.rcb11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+}
+
+.rcb2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(142, 31, 31);
+    position: absolute;
+    border-radius: 20px;
+}
+
+.rcb2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: black;
+}
+
+.rcb11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+.rcb2 img{
+    height: 100px;
+    width: 100px;
+}
+/* -----------------------------------------------------gt gt----------------------------------------------- */
+
+.gt1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.gt11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+}
+
+.gt2{
+    height: 300px;
+    width: 300px;
+    background-color: #0d1a31;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.gt2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: #77c7f2;
+}
+
+.gt11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+.gt2 img{
+    height: 100px;
+    width: 100px;
+}
+
+
+/* ---------------------------------------------------dc dc  dc------------------------------------------------- */
+
+
+.dc1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.dc11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+}
+
+.dc2{
+    height: 300px;
+    width: 300px;
+    background-color: #011846;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.dc2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: #b9251c;
+}
+
+.dc11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+.dc2 img{
+    height: 100px;
+    width: 100px;
+}
+
+/* ==============================================================kkr kkr============================================== */
+
+
+.kkr1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.kkr11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+}
+
+.kkr2{
+    height: 300px;
+    width: 300px;
+    background-color: #281f4a;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.kkr2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: #ecc542;
+}
+
+.kkr11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+.kkr2 img{
+    height: 100px;
+    width: 100px;
+}
+
+/* =================================================== rr  rr rrr ================================================== */
+
+
+.rr1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.rr11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+}
+
+.rr2{
+    height: 300px;
+    width: 300px;
+    background-color: #04346d;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.rr2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: #eb83b5;
+}
+
+.rr11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+.rr2 img{
+    height: 100px;
+    width: 100px;
+}
+
+/* ===================================================srh================================================== */
+
+.srh1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.srh11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+}
+
+.srh2{
+    height: 300px;
+    width: 300px;
+    background-color: #712325;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.srh2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: #f26522;
+}
+
+.srh11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+.srh2 img{
+    height: 100px;
+    width: 100px;
+}
+
+
+/* ======================================================srh=================================================== */
+
+.pk1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.pk11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+}
+
+.pk2{
+    height: 300px;
+    width: 300px;
+    background-color: #273666;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.pk2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: #d71920;
+}
+
+.pk11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+.pk2 img{
+    height: 100px;
+    width: 100px;
+}
+
+.cardpk{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    grid-column-start: 2;
+}
+
+/* ================================================================lsg============================================ */
+
+
+.cardlsg{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    grid-row-start: 3;
+    grid-column-start: 3;
+}
+
+.lsg1{
+    height: 300px;
+    width: 300px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.lsg11{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    background-color: ghostwhite;
+}
+
+.lsg2{
+    height: 300px;
+    width: 300px;
+    background-color: #0147bc;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.lsg2 div{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:25% ;
+    background-color: white;
+}
+
+.lsg11 img{
+    height: 50px;
+    width: 50px;
+    opacity: 0;
+}
+
+.lsg2 img{
+    height: 100px;
+    width: 100px;
+}
+
+
+.card:hover{
+    .csk1, .rcb1, .mi1, .gt1, .dc1, .kkr1, .rr1, .srh1, .pk1, .lsg1{
+        z-index: 1;
+    }
+
+.cardpk:hover{
+    .pk1{
+        z-index: 1;
+    }
+}
+
+    img{
+        height: 50px;
+        width: 50px;
+        opacity: 1;
+    }
+}
+
+
+
+/* ==================================================== sponsers ================================== */
+
+.sponser{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 90%;
+    height: 200px;
+    background-color: #011846;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.sponser img{
+    height: 150px;
+    width: 150px;
+}
+
+.sponser1 {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    color: white;
+}
+
+.sponser2 li{
+    color: white;
+    padding-left: 20px;
+}
+
+.sponser3, .sponser4, .sponser5{
+    display: flex;
+    height: 150px;
+    width: 250px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+/* ================================================================footer footer========================================= */
+
+
+
+footer{
+    width: 97%;
+    padding: 20px;
+    background-color: #0d0d34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer1{
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.footer1 img{
+    height: 60px;
+    width: 60px;
+}
+
+.footer1 i{
+    padding: 10px 0px 0px 10px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer h4{
+    color:white;
+    margin-top: 5px;
+}
+
+.footer p{
+    color: oldlace;
+    opacity: 0.7;
+    font-size: small;
+    margin: 5px;
+}
+
+
+@media only screen and (min-width:500px) and (max-width: 770px){
+/* body{
+    width: 150%;
+} */
+
+.nav {
+    width: 100%;
+    height: 74px;
+    position: fixed;
+    top: 0;
+    background-color: royalblue;
+    display: flex;
+    z-index: 5;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nimg1{
+    height: 75px;
+    width: 100px;
+}
+
+.h1 {
+    height: 50px;
+    width: 77px;
+}
+
+footer {
+    width: 96%;
+    padding: 20px;
+    background-color: #0d0d34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+}
